@@ -109,13 +109,13 @@ def lexema():
 def inicio():
 
     global l_coluna
-    aux = 3
+    aux = 1
 
-    while (aux == 3):
+    while (aux == 1):
 
         token = lexema()
         if token == False:
-            print(" deu erro")
+            print("\n")
         elif token != False:
             print(token)
             if token['token'] == "EOF":
